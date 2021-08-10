@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azex</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+ ">
+    <!-- start navbar -->
+    <aside>
+        <a href="index.html#nav"><span><i class="fa fa-arrow-circle-up fa-2x"
+                    style="background-color: rgb(59, 137, 204); color:blanchedalmond; border-radius: 30%;"></i></span></a>
+    </aside>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-1"
+        style="font-family: 'Lateef', cursive; font-size: 1.9rem;" id="nav">
+        <a class="navbar-brand" href="#">
+            <img src="WEB/img/logo wte.png" width="60px " height="60px" alt="Azex Logo" style="display: inline-block; ">
+            <h5 style="display: inline-block ;color: white; font-size: 1.7rem; ">معرض الأزهر للتطبيقات الهندسية </h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            style="background-color: white ;" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="lia"><a href="index.html"> الرئيسية </a></li>
+                <li><a href="index.html#last"> دوراتنا التعليمية </a></li>
+                <li>
+                    <div class="dropdown show">
+                        <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            أحداث الفريق
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="index.html#ev"> الحفل الافتتاحي </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="index.html#last"> الدورات التعليمية </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="index.html#kek"> الحفل الختامي </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <!-- start small screen -->
+                    <div class="dropdown show">
+                        <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> عن الفريق </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                            <a class="dropdown-item"  style="font-size: 1.5rem;"  href="index.html#about"> رؤية الفريق </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="index.html#message"> رسالة الفريق </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="index.html#history"> تاريخ الفريق</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <!-- start small screen -->
+                    <div class="dropdown show">
+                        <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">مشاريع المعرض </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/WEB/index.html"> Web track </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/Azex_Android/index.html">Android </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/امبيدد/index.html"> Embedded track</a>
+
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/عماره/index.html">Architecture </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/ميكا/index.html"> Mechanical</a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/jonuor/index.html">Jounior </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="../بروجكت الفريق/مشاريع تخرج/index.html">مشاريع التخرج </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="dropdown show">
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown show">
+                        <a class=" dropdown-toggle" href="index.html#footer" role="button" id="dropdownMenuLink3"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            تواصل معنا
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="https://bit.ly/2Jvbn3G"> Facebook </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="https://bit.ly/3ly2HGZ"> Twitter </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="https://bit.ly/33B1rwz"> Instagram </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="https://t.me/AZharEXhibition"> Telegram </a>
+                            <a class="dropdown-item"  style="font-size: 1.5rem;" href="https://bit.ly/2JJE4cU"> YouTube </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="about-team">
+        <div class="contain">
+            <div class="container edit">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <h3 class="ed"> عن الفريق </h3>
+                        <p>
+                            فريق "معرض الازهر للتطبيقات الهندسية" نشاط طلابي وحدث علمي ضخم غير هادف للربح، يهدف بشكل
+                            أساسي لإعداد مهندس مبتكر مبدع.. وذلك عن طريق سد الفجوة بين الجانب العملي والنظري من خلال
+                            معرض هندسي ضخم يقام كل عام مسبوق بدورات وورش عمل في مختلف المجالات الهندسية أسسه الدكتور
+                            أحمد صفوت -رحمه الله- بكلية الهندسة عام 1999م حيث كان رئيسا لقسم الهندسة الكهربائية
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img imgo">
+                            <img src="./images/DSC_0074 (6).jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="vision" id="about">
+
+        <div class="contain ">
+            <div class="container edit2">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="img">
+                            <img src="./images/2.jpg" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3> رؤية الفريق </h3>
+                        <p>
+                            المعرض الأول على مستوى مصر وله ثقله العربي والعالمي حيث يهدف إلى الريادة في مجال التعليم
+                            وإعداد مهندس مؤهل لسوق العمل قادر على مواكبة التطور في مختلف المجالات
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="team-message " id="message">
+        <div class="contain ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner m-auto" style="  font-family: 'Lateef', cursive; ">
+                    <div class="carousel-item  active ">
+                        <div class="container">
+
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-md-6   mm">
+                                    <h3>رسالة الفريق </h3>
+                                    <p>
+                                        تعمل على ثلاثة محاور (الطالب - الجامعة - المجتمع)
+                                    </p>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <div class="img d-flex justify-content-center align-items-center">
+                                        <img class="koloo" src="./images/IMG-20210404-WA0083.jpg">
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container">
+
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-md-6   koloo mm">
+                                    <h3>الطالب</h3>
+                                    <h5>أولًا: تأهيل الطالب وذلك من خلال:</h5>
+                                    <ol>
+                                        <li>إعداد محتوى علمي شامل لإعانة الطالب على استيعاب المادة العلمية بطريقة مبسطة.
+                                        </li>
+                                        <li> تقديم دورات متخصصة وورش عمل في مختلف المجالات الهندسية لصقل الطالب علميًا
+                                            وربطه بالجانب العملي. </li>
+                                        <li> إقامة مسابقات لخلق روح التنافس بين الطلبة. </li>
+                                        <li> االعمل على ربط الطالب بسوق العمل من خلال التدريبات المختلفة في الشركات
+                                            الهندسية. </li>
+                                    </ol>
+
+                                </div>
+
+                                <div class="col-md-6  ">
+                                    <div class="img d-flex justify-content-center align-items-center">
+                                        <img class="koloo" src="./images/IMG-20210404-WA0083.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container">
+
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-md-6   koloo mm">
+                                    <h3>الجامعة</h3>
+                                    <h5>ثانيًا: تطوير الجامعة من خلال:</h5>
+                                    <ol>
+                                        <li>لعمل على تغيير الصورة النمطية عن الجامعة من حيث كونها جامعة دينية لا تهتم
+                                            بالجانب العملي.</li>
+                                        <li>إظهار الكوادر الطلابية من الجامعة في معرض هندسي سنوي يحضره جميع الجامعات
+                                            ووسائل الإعلام والشخصيات المختلفة. </li>
+                                        <li>العمل على تحديث الأجهزة والمعامل التي تساعد الطالب على إقامة مشاريع مميزة
+                                            تليق باسم الجامعة.</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <div class="d-flex justify-content-center align-items-center img">
+                                        <img class="koloo" src="./images/IMG-20210404-WA0083.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container">
+
+                            <div class="row d-flex justify-content-center align-items-center ">
+                                <div class="col-md-6   mm koloo">
+                                    <h3>المجتمع</h3>
+                                    <h5>ثالثًا: تنمية المجتمع من خلال:</h5>
+                                    <ol>
+                                        <li> تنمية شخصية الطالب وإكسابه المهارات الحياتية المختلفة مثل العمل الجماعي
+                                            والقيادة وغيرها ليصبح مصدر لتنمية المجتمع.</li>
+                                        <li>غرس فكر العمل التطوعي وروح المسؤولية في الطالب نحو مجتمعه وأمته. </li>
+                                        <li> تقديم ابتكارات هندسية لحل المشاكل المجتمعية المختلفة.</li>
+                                        <li> خلق مهندس رائد في مجاله ليكون نواة لأمة علمية متقدمة. </li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6  ">
+                                    <div class="d-flex justify-content-center align-items-center img">
+                                        <img class="koloo" src="./images/IMG-20210404-WA0083.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+    </div>
+    <section style="  background-color: #093253c2; " class="p-2" id="history">
+        <h2 class="p-4"
+            style="color: rgb(224, 168, 26); text-align: center;   font-family: 'Lateef', cursive; font-size: 2.3rem;">
+            تاريخ الفريق</h2>
+        <div id="carouselExampleControls" class="carousel slide container " data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active fat">
+                    <img class="d-block w-100" src="images/BackGroundOne.jpeg" alt="Second slide">
+                    <h3>1999</h3>
+                    <p class="cen a1999   shadow-lg  ">رحلةٌ بدأت منذ واحد وعشرين عامًا على يد معلمنا ومؤسس الفريق
+                        الدكتور أحمد صفوت -رحمه الله- حين أدرك الفجوة بين الجانب النظري والجانب العملي، ففي عام 1999 طلب
+                        من طلاب قسم هندسة الاتصالات عمل مشروع معين، وقام بإعطاء مكافأة لأفضل مشروع، ومن هنا كانت شعلة
+                        البداية..
+                        وبعد مرور عام ترك الطلاب العنان لخيالهم وقاموا بعمل مشاريع ذات أفكار متعددة كلٌ أبدع بطريقته..
+
+                    </p>
+                </div>
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/Three.jpg" alt="Second slide">
+                    <h3>2004</h3>
+                    <p class="cen a2004 shadow-lg">
+                        فكان بداية إقامة المعرض في معمل قسم هندسة الاتصالات؛ فنهلوا من مؤسسنا حب الخير وحسن القيادة
+                        ونجحوا في تنظيم المعرض..
+                        ثم انضم الطالبات للمشاركة في المعرض في العامين التاليين، وتعددت المشاريع وصارت إلزامية لجميع
+                        الطلاب.
+                        إلى هنا، فالمعرض مقتصر على هندسة الاتصالات
+                    </p>
+                </div>
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/عميد.jpg" alt="Third slide">
+                    <h3>2011,2010</h3>
+                    <p class="cen a2011 shadow-lg">
+                        امتد عمل المشاريع إلى قسم هندسة القوى والآلات، فخرجنا من معمل الكلية إلى إقامة المعرض في الساحة.
+                    </p>
+                </div>
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/عدد المشاريع.jpg" alt="Third slide">
+                    <h3>2012-2014</h3>
+
+                    <p class="cen a2013">
+                        كانت بداية تشكيل فريق تطوعي لينضم إليه طلاب الفرقة الأولى والفرقة الإعدادية وبدأوا في تنظيم
+                        المعرض ليقام ولأول مرة في قاعة الأزهر للمؤتمرات!
+                        ليس هذا وحسب، فقد بدأنا في شرح الدبلومات والورش لمساعدة الطلاب على التطبيق العملي منذ بداية
+                        العام الدراسي والبدء في المشاريع للمشاركة بها في معرضنا.
+                        ورُغم ما مرا به الجامعة من ظروف في عام 2014 إلا أننا لم نستسلم وأقمنا المعرض غير آبهين للعقبات.
+
+                    </p>
+                </div>
+
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/إظهار.jpg" alt="Third slide">
+                    <h3>2015</h3>
+
+                    <p class="cen a2016 shadow-lg">
+                        وفي هذا العام دخلنا عالم البرمجة فشرحنا العديد من لغاتها والأنظمة المدمجة والتحكم الكلاسيكي وعلم
+                        الروبوتات، وتم التوسع ليشمل المعرض قسمي النظم والحاسبات والهندسة الميكانيكية بجانب قسم الهندسة
+                        الكهربية، وكان عامًا مميزًا فقد تم إعادة شرح الدبلومات بشكل مكثف خلال أيام معدودة.
+
+                    </p>
+                </div>
+
+
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/عميد.jpg" alt="Third slide">
+                    <h3>2016</h3>
+
+                    <p class="cen a2016 shadow-lg">
+                        ددفننا حزننا على وفاة معلمنا ومؤسس الفريق في أعماقنا وحلقنا في سماء تحقيق غايتنا ولم نلتفت إلى
+                        المثبطات، وتوسع المعرض بشكل كبير وضم قسم الهندسة المعمارية وشرحنا عدة دبلومات متنوعة
+
+                    </p>
+                </div>
+
+
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/ورش العمل.jpg" alt="Third slide">
+                    <h3>2017</h3>
+
+                    <p class="cen a2016 shadow-lg">هي سنة التغيير، فقد شارك في معرضنا طلاب الفرقة الإعدادية، وطلاب
+                        المرحلة الثانوية والابتدائية الذي بدأوا رحلة الابتكار منذ الصغر..
+
+                    </p>
+                </div>
+
+                <div class="carousel-item fat">
+                    <img class="d-block w-100" src="images/البرمجه.jpg" alt="Third slide">
+                    <h3>2019-2018</h3>
+
+                    <p class="cen a2019 shadow-lg">
+                        ثم انطلقنا من جامعة الأزهر إلى جامعات عدة على مستوى مصر مثل جامعة العاشر و New Cairo والشروق
+                        ومنوف والمطرية وشبرا والعديد من الجامعات.
+                    </p>
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- end esraa -->
+    <div class="container las" id="last">
+        <h2 style=" font-family: 'Lateef', cursive; font-size: 40px;">ورش العمل والدورات التعليمية</h2>
+        <div class="navo">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html#po">power</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#so">software</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#me">mechanical</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html#ar">Architecture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html#em"> Embeded </a>
+                </li>
+            </ul>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4" style=" height: 400px; margin-bottom: 10PX;">
+                <div class="card text-white co bg-sconery mb-3 nmm" style=" height: 400px;">
+                    <div class="bg" style="text-align: center; font-family: 'Times New Roman', Times, serif;"> SoftWare
+                    </div>
+                    <div class="card-body VAR " style="transition: 1S; ">
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCacO83ROAQe6hqrtJaXVQNZ"
+                                target="-blank">html/css</a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCZadJ82YJ_SnGzs43enuCx2"
+                                target="-blank">php</a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCZB5drRz3-Ef0Ox0skgrrUl"
+                                target="-blank">Bootstrap </a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCbNnuRUQvhZZybgGIlGMn5v"
+                                target="-blank">java script</a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCb5Vx2NO2w7QL4SA3AoUPYy"
+                                target="-blank">Android</a></h6>
+                        <h6> <a href="https://www.youtube.com/watch?v=8xahl_K6dns&list=PLAVkguADveCbQeFMlR38p7bVtPBXfhWZR"
+                                target="-blank">Data Structure</a></h6>
+                        <h6> <a href=" https://www.youtube.com/watch?v=f5J4k99p8wQ&list=PLAVkguADveCbODIYYWPpkKHjCIDgldO6n "
+                                target="-blank">CCNA</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4" style=" height: 400px; margin-bottom: 10PX;">
+                <div class="card text-white co bg-sconery mb-3" style=" height: 400px;">
+                    <div class="bg" style="text-align: center; font-family:'Times New Roman', Times, serif;">
+                        Architecture</div>
+                    <div class="card-body VAR " style="transition: 1S; margin-top: -22PX; ">
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCZa5YhHroa_5Qxc5i0vAFK-"
+                                target="-blank">photoshop</a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCaftaShu7H3VJ8LFiAGaNX3"
+                                target="-blank">revet</a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCanhoTndFmBG1ZvEy1OMayX"
+                                target="-blank">green bulding</a></h6>
+                        <h6><a href="https://youtube.com/playlist?list=PLAVkguADveCZExhNpriSgGBsjgJpannAr">اظهار
+                                معماري</a></h6>
+                        <h6> <a href="#">autocad</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4" style=" height: 400px;">
+                <div class="card text-white co bg-sconery mb-3" style=" height: 400px; margin-bottom: 10PX;">
+                    <div class="bg" style="text-align: center;font-family:'Times New Roman', Times, serif;">Power</div>
+                    <div class="card-body VAR " style="transition: 1S;">
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCZe_CLockb1JqIcQvf4oOOC"
+                                target="-blank"> Solar</a></h6>
+                        <h6><a href="https://youtube.com/playlist?list=PLAVkguADveCb1NkTAg4rX1-2r-MAsAqod"
+                                target="-blank">CC Arduino</a> </h6>
+                        <h6><a href="https://youtube.com/playlist?list=PLAVkguADveCZlYe7LlZgFOjUE9pj0GuI7"
+                                target="-blank"> PLC</a> </h6>
+                        <h6><a href="https://www.youtube.com/watch?v=NUi5RRhGDFU&list=PLAVkguADveCbg7sCmYUH7dQvkYe1xRD_h"
+                                target="-blank">classic Control</a></h6>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCYxiTma7Eqbfzmi1RKqbr84"
+                                target="-blank">التركيبات الكهربية</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="row ">
+            <div class="col-sm-12  col-lg-2" style=" height: 3px;"></div>
+            <div class="col-sm-12  col-lg-4" style=" height: 400px;">
+                <div class="card text-white co  mb-3" style=" height: 400px; margin-bottom: 10PX;">
+                    <div class=" bg" style="text-align: center; font-family:'Times New Roman', Times, serif;">Mechanical
+                    </div>
+
+                    <div class="card-body  VAR " style="transition: 1S;">
+
+                        <h6> <a href="https://www.youtube.com/playlist?list=PLAVkguADveCZLy_klLkCWggjX-kujtahL"
+                                target="-blank">Sheet Metal</a></h6><br>
+                        <h6> <a href="https://www.youtube.com/watch?v=QhIXFIyKySE&list=PLAVkguADveCYxiTma7Eqbfzmi1RKqbr84"
+                                target="-blank">SOLIDWORKS</a></h6>
+                        <br>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCZBoyCWM_QilAc1l7oPBYhY"
+                                target="-blank">Robotics</a></h6>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4" style=" height: 400px; margin-bottom: 10PX;">
+                <div class="card text-white co bg-sconery mb-3" style=" height: 400px;">
+                    <div class="bg" style="text-align: center; font-family:'Times New Roman', Times, serif;">Embedded
+                    </div>
+                    <div class="card-body  VAR " style="transition: 1S;">
+                        <BR><BR>
+                        <h6> <a href="  https://youtube.com/playlist?list=PLAVkguADveCYRo2wYvKj-DBHOSkWMmw90 "
+                                target="-blank">Degital Design</a></h6><br>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCb1NkTAg4rX1-2r-MAsAqod"
+                                target="-blank">CC Arduino</a></h6><br>
+                        <h6> <a href="https://youtube.com/playlist?list=PLAVkguADveCYD1RuzelI1NLNn3nLoCK5N"
+                                target="-blank">AVR</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12  col-lg-2" style=" height: 3px;"></div>
+        </div>
+    </div>
+    <!-- last badge -->
+    <section class="sec4">
+        <div class="container ">
+            <hr style="background-color:white; height: 4px;">
+            <h2 style="color: #eec65a;font-family: 'Lateef', cursive; text-align: center; ">أحداث الفريق</h2>
+            <div class="row j" style="height: 500px; ">
+                <div class="col-sm-12 col-lg-6 "
+                    style="height:400px; margin-bottom: 10px; padding-bottom: 10px; position: relative;">
+
+                    <div class="card efto" style="height:400px; " id="ev">
+                        <div class="overlay">
+                            <h4
+                                style="color: #eec65a;font-family: 'Lateef', cursive; text-align: center;background-color: rgb(82, 64, 16); ">
+                                حفل الافتتاح</h4>
+
+                            <div class="card-body " style="height:360px; background-color: rgba(45, 45, 46, 0.692); ">
+                                <p
+                                    style="font-family:'Lateef', cursive; text-align: center ; padding: 10px; border: oldlace 2px solid;  color: white; text-align: center;">
+                                    هو الحدث الأول في الجدول الثانوي للفريق ويكون في بداية العام الأكاديمي حيث يحضره ما
+                                    يزيد عن ألف طالب من الأقسام الهندسية المختلفة.. تتمثل فعاليات هذا الحدث بتعريف
+                                    الطلاب بمحتوى العام والدورات وورش العمل ويتم تقديم بعض من الدورات والمحاضرات العلمية
+                                    حتى يكون الطالب على دراية كاملة بتطورات سوق العمل
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6" id="last">
+                    <div class="card efto " style="height:400px;  background-image: url(images/faro.jpeg); ">
+                        <div class="overlay">
+                            <h4
+                                style="color: #eec65a;font-family: 'Lateef', cursive; text-align: center;background-color: rgb(82, 64, 16); ">
+                                <a href="index.html#last" style="color: #eec65a;">الورش..</a></h4>
+
+                            <div class="card-body " style="height:360px; background-color: rgba(45, 45, 46, 0.692); ">
+                                <p
+                                    style="font-family:'Lateef', cursive; text-align: center ; padding: 10px;border: oldlace 2px solid; color: white; text-align: center;">
+                                    ورش عمل ودبلومات يتم فيها شرح المادة العلمية بطريقة مبسطة وبنهايتها يتم عمل مشروع
+                                    كتطبيق عملي على ما تم شرحه.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- pag2 -->
+    <div class=" faal" style="background-color:#094b61d0; padding: 30px;">
+
+        <div class="psho container " id="kek">
+            <h2 style="color: #eec65a;font-family: 'Lateef', cursive; text-align: center; ">الحفل الختامي(المعرض)</h2>
+            <p style="color: white;  font-family: 'Lateef', cursive; font:bold;">
+                هو الحدث الرئيسي للفريق ويعتبر تتويجا لأحداث الفريق على مدار يومين بمشاركة العديد من طلاب كلية
+                الهندسة ويكون ذلك بحضور أساتذة الجامعات وممثلي الشركات في التحكيم وتبنى العديد من المشروعات
+                بالإضافة إلى إقامة العديد من المسابقات
+            </p><br><br>
+        </div>
+        <div class="container nrw" style="height: 650px; ">
+            <div class="row row1 " style="height: 650pxpx;">
+                <div class="col-md-4 col-sm-12" style="height: 250px;">
+                    <div class="card" style=" height: 250px ; ">
+                        <img class="card-img-top imo" src="images/visitors.jpeg" style="height: 200px;"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 style="text-align: center;  font-family: 'Lateef', cursive; font-size: 1.9rem;">وبحضور
+                                3.000 زائر</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12" style="height: 250px;">
+                    <div class="card" style=" height: 250px;">
+                        <img class="card-img-top imo" src="images/إظهار.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 style="text-align: center;font-family: 'Lateef', cursive; font-size: 1.9rem;"> مسابقة
+                                إظهار</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12" style="height: 250px;">
+                    <div class="card" style=" height: 250px;">
+                        <img class="card-img-top imo" src="images/البرمجه.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 style="text-align: center;font-family: 'Lateef', cursive; font-size: 1.9rem;">مسابقة
+                                برمجة</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 col-sm-12" style="height: 250px;">
+                    <div class="card" style=" height: 250px;">
+                        <img class="card-img-top imo" src="images/عدد المشاريع.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 style="text-align: center;font-family: 'Lateef', cursive; font-size: 1.9rem;">وبمشاركة
+                                +150 مشروع</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12" style="height: 250px;">
+                    <div class="card" style=" height: 250px;">
+                        <img class="card-img-top imo" src="images/sabiq-and lahiq-competition.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 style="text-align: center;font-family: 'Lateef', cursive; font-size: 1.9rem;">مسابقة
+                                سابق ولاحق</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foter -->
+
+
+    <div class="footer" id="footer">
+        <div class="social-media">
+            <div class="border-top"></div>
+            <ul>
+                <li><a href="https://bit.ly/2Jvbn3G"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://bit.ly/2JJE4cU"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://bit.ly/3ly2HGZ"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://bit.ly/33B1rwz"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; 2020 AZHAR EXHIBITION All Right Reserved</p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- script files-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
